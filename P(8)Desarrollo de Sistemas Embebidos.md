@@ -180,6 +180,41 @@ ancho y la altura respectivamente.
 ## Sintaxis: 
 ellipse(x,y,w,h)
 
-                                                  
+Otra parte importante de las interfaces  son   librerias basicas  aqui  otras tipos de librerias.
+
+# Librerías Básic
+Nos ayudan a mejorar las capacidades de programación dentro de
+Porcessing con herramientas orientadas a diferentes temas.
+
+## funcion Serial
+
+Permite la comunicación entre un dispositivo electrónico conectado desde un Puerto COM hacia Processing para enviar o recibir datos.
+
+S i n t ax i s.
+
+import processing.serial.*;
+
+
+## Funcion ControlP5    
+Permite insertar botones, sliders, graficas, entre otros De esta manera se tiene mejor control de una interfaz y permite agregar mayores funciones a los eventos de teclado y mouse.
+
+S
+i n t ax i s.
+
+import controlP5.*;
+
+ControlP5 cp5;
+
+cp5= new ControlP5( this);
+
+## Importar nuevas librerías.
+Si es necesario agregar componentes extras y se desconoce de todas las herramientas disponibles, dentro del sketch se pueden buscar en línea.
+
+# Control P5
+## Botones.
+
+Permite agregar botones de forma simple y ordenada.
+
+## S i n t ax i s:
 
 
