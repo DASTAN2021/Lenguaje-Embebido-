@@ -213,8 +213,152 @@ Si es necesario agregar componentes extras y se desconoce de todas las herramien
 # Control P5
 ## Botones.
 
+![Esta es una imagen de ejemplo](https://i.ytimg.com/vi/RvMM-GTBVsM/maxresdefault.jpg) 
 Permite agregar botones de forma simple y ordenada.
 
 ## S i n t ax i s:
+cp5.addButton(“ Nombreboton")
+
+.setPosition (x,y )
+. setSize (w,h)
+
+.setCaptionLabel ("Nombre en interfaz");
+
+public void Nombreboton(){
+
+    // instrucciones de boton
+}
+
+            w -> ancho de la ventana (int)
+            h -> alto de la ventana (int)
+
+## Toogle
+Botón de dos estados, encendido o apagado 
+
+Permite agregar botones de forma simple y ordenada.
+![Esta es una imagen de ejemplo](https://www.automatizacionparatodos.com/wp-content/uploads/2019/09/cropped-Banner-Post-04--1024x576.png) 
+
+## Si n t ax i s:
+
+cp5.addToggle(“NombreToogle")
+
+.setValue (0) // valor de 1 o 0 al presionar
+
+.setPosition (x,y)
+
+.setPosition x,y
+
+.setCaptionLabel("Nombre en interfaz");
+
+void AUTOMATIC(boolean dato){
+
+    if(dato ==true){
+        //instrucciones
+    }
+}
+
+## Slider
+![Esta es una imagen de ejemplo](https://play-lh.googleusercontent.com/hRiZ4ZPycePU1TmPq65ApB-UPT0PYs_u6yg80HWsanwMXJ32CBnbzogOAMxNwSbdbx8) 
+
+Es una herramienta que permite seleccionar dentro de una barra cierto valor en un rango seleccionado.
+Además, puede ser utilizado como un contenedor de datos.
+
+## Si n t ax i s
+
+cp5.addSlider("slider") 
+
+cp5.getController(“slider")
+
+cp5.getController(“slider")
+.setValue (Valor);
+
+.setPosition (x,y)
+
+.setSize (w,h)
+
+.setRange (min,max)
+
+.setValue (0)
+
+.setNumberOfTickMarks (numero de marcas)
+
+.setCaptionLabel ("Nombre en interfaz");
+
+void slider (int dato){
+
+    //instrucciones
+}
+
+    w -> ancho de la ventana (int)
+
+    h -> alto de la ventana (int)
+
+## LECTURA DE  MATRICES
+La mayoría de los datos se encuentran en relación de matrices (fila y columnas).
+Desde processing podemos leer como guardar en diferentes formatos
+
+![Esta es una imagen de ejemplo](https://parzibyte.me/blog/wp-content/uploads/2021/07/Programacion-en-C-Codificar-texto-con-matriz-de-25-letras.png)
+
+## LECTURA
+
+//cargar datos
+
+Table Nombre_variable;
+
+Nombre_variable loadTable (“Archivo.csv","header");
+
+//leer =, forma 1
+
+for (TableRow row:Nombre_variable.rows()){
+
+    dato=row.getFloat("header ”); // pueden ser otro tipo de datos
+}
+
+//forma 2
+
+for (i=0;<= tope;i++)
+{
+
+    TableRow row = Nombre_variable.getRow (i);
+     
+     X=(( row.getFloat("header>")
+
+}
+
+## ESCRITURA
+
+### Si n t ax i s
+
+PrintWriter output;
+
+output = createWriter (“Archivo.csv");
+
+output.
+flush (); //abrir archivo
+
+output.println (Variable1+","+variable2);
+
+output.close (); // Finishes the file
+
+## Visualización Datos
+
+![Esta es una imagen de ejemplo](https://images1.programmerclick.com/130/7a/7ae98734bb13c8a1a02b65f8ada81192.png)
+
+Generalmente
+se tendrá dos formas de visualizar información La primera es en tiempo
+real (datos adquiridos al mismo tiempo ser visualizados) y la segunda es con bases de
+datos guardadas, las mismas que se debe ser normalizadas y cambiar todo a positivos
+para poder visualizar en Processing Posteriormente, podremos utilizar las herramientas
+vistas con anterioridad
+
+
+
+
+
+
+
+
+
+
 
 
