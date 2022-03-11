@@ -350,8 +350,7 @@ real (datos adquiridos al mismo tiempo ser visualizados) y la segunda es con bas
 datos guardadas, las mismas que se debe ser normalizadas y cambiar todo a positivos
 para poder visualizar en Processing Posteriormente, podremos utilizar las herramientas
 vistas con anterioridad
-
-## prueba 
+ 
 
 
 
