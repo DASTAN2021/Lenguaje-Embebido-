@@ -351,6 +351,7 @@ datos guardadas, las mismas que se debe ser normalizadas y cambiar todo a positi
 para poder visualizar en Processing Posteriormente, podremos utilizar las herramientas
 vistas con anterioridad
 
+## prueba 
 
 
 
